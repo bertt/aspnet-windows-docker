@@ -4,7 +4,7 @@ Sample of putting a .NET Framework 4.6 web application with Windows dependency i
 
 Application does a buffer using SQLGeometry (https://www.nuget.org/packages/Microsoft.SqlServer.Types/):
 
-````c#
+```
 var point = SqlGeometry.Point(4, 7, 4326);
 var buffer = point.STBuffer(5);
 return buffer.STArea().Value;
