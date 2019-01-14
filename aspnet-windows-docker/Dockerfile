@@ -1,4 +1,2 @@
 ﻿FROM microsoft/aspnet
-ARG source
-WORKDIR /inetpub/wwwroot
-COPY ${source:-obj/Docker/publish} .
+COPY ./bin/Release/Publish/ /inetpub/wwwroot/
