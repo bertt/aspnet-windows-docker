@@ -16,6 +16,8 @@ Request: HTTP GET http://localhost:49979/api/buffer
 
 Response: 78.5082789238684
 
+In Visual Studio, press Publish to folder, so output directory /bin/Release/Publish is created.
+
 ## Docker Build
 
 ```
